@@ -107,7 +107,7 @@ resource "aws_ecs_task_definition" "hello_world" {
   container_definitions = <<DEFINITION
 [
   {
-    "image": "245872801099.dkr.ecr.us-east-2.amazonaws.com/nodejs:latest",
+    "image": "public.ecr.aws/y9g5n6b7/node-js:latest",
     "cpu": 1024,
     "memory": 2048,
     "name": "hello-world-app",
