@@ -107,7 +107,7 @@ resource "aws_ecs_task_definition" "hello_world" {
   container_definitions = <<DEFINITION
 [
   {
-    "image": "public.ecr.aws/y9g5n6b7/good:latest",
+    "image": "public.ecr.aws/y9g5n6b7/project-odejs-jenkis:latest",
     "cpu": 1024,
     "memory": 2048,
     "name": "hello-world-app",
